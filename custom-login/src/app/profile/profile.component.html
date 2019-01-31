@@ -17,9 +17,9 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let claim of claims">
-      <td>{{claim.claim}}</td>
-      <td id="claim-{{claim.claim}}">{{claim.value}}</td>
+    <tr *ngFor="let user of userPropertyMap">
+      <td>{{user.key}}</td>
+      <td id="claim-{{user.key}}">{{user.value}}</td>
     </tr>
   </tbody>
 </table>
